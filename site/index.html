@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dockerized web application deployment by Gondal Digital Agency.">
+  <title>Docker Web Deployment | GDA</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: #f8fafc;
+      line-height: 1.7;
+    }
+    header {
+      padding: 22px 8%;
+      border-bottom: 1px solid #253249;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+    .brand { font-weight: bold; color: #60a5fa; font-size: 20px; }
+    .tag { color: #cbd5e1; font-size: 13px; }
+    main {
+      max-width: 1050px;
+      margin: auto;
+      padding: 85px 24px;
+    }
+    .label {
+      color: #60a5fa;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    h1 { font-size: clamp(36px, 6vw, 64px); line-height: 1.12; }
+    h1 span { color: #60a5fa; }
+    .intro { max-width: 680px; color: #cbd5e1; font-size: 18px; }
+    .badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 28px 0; }
+    .badges span {
+      border: 1px solid #334155;
+      border-radius: 20px;
+      padding: 6px 13px;
+      color: #bfdbfe;
+      font-size: 13px;
+    }
+    .panel {
+      margin-top: 45px;
+      padding: 28px;
+      background: #111c30;
+      border: 1px solid #253249;
+      border-radius: 14px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+    .item { padding: 18px; background: #17243a; border-radius: 10px; }
+    .item h3 { color: #93c5fd; margin-top: 0; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      border-top: 1px solid #253249;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">GDA | Gondal Digital Agency</div>
+    <div class="tag">Cloud & DevOps Engineering</div>
+  </header>
+
+  <main>
+    <div class="label">DevOps Portfolio Project 01</div>
+    <h1>Dockerized Web<br><span>Application Deployment</span></h1>
+    <p class="intro">
+      A containerized web application demonstrating Docker image
+      creation, Nginx deployment, port mapping and HTTP testing.
+      Built as a hands-on cloud engineering portfolio project.
+    </p>
+
+    <div class="badges">
+      <span>Docker</span>
+      <span>Nginx</span>
+      <span>Linux</span>
+      <span>AWS CloudShell</span>
+      <span>Git & GitHub</span>
+    </div>
+
+    <section class="panel">
+      <h2>Project Architecture</h2>
+      <p>Website Files → Dockerfile → Docker Image → Nginx Container → HTTP Test</p>
+    </section>
+
+    <section class="panel">
+      <h2>Technical Implementation</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Containerization</h3>
+          <p>Package a static website into a reproducible Docker image.</p>
+        </div>
+        <div class="item">
+          <h3>Web Serving</h3>
+          <p>Serve website files through the Nginx web server.</p>
+        </div>
+        <div class="item">
+          <h3>Verification</h3>
+          <p>Inspect container status, port mappings and HTTP responses.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Expected Outcomes</h2>
+      <p>Custom Docker image, running container, successful HTTP response
+      and documented deployment workflow.</p>
+      <p><strong>Status:</strong> Initial implementation — testing in progress.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Gondal Digital Agency | Docker & Cloud Engineering Portfolio
+  </footer>
+</body>
+</html>
